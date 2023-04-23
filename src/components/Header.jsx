@@ -21,24 +21,24 @@ const Header = () => {
             </div>
         </div>
         {/* <div className='flex justify-center items-center sm:justify-end sm:block mx-auto w-full sm:w-auto'> */}
-        <div className='relative sm:mr-[50px] sm:h-[470px] mx-[10%] sm:mx-0 left-[50%] sm:left-0 translate-x-[-50%] sm:translate-x-0  max-w-full sm:w-auto '>
+        <div className='relative sm:mr-[50px] sm:h-[470px] mx-[5%] sm:mx-0 left-[50%] sm:left-0 translate-x-[-50%] sm:translate-x-0  max-w-full sm:w-auto '>
             {/* <img src={Circles} alt="" className='absolute flex justify-center max-w-full' /> */}
             <img src={Lady} alt="" className='h-full flex justify-center max-w-full' />
             <motion.div 
                 animate={{y: ['-5px','5px','-3.5px','3.5px', '0px', '0px', '0px', '0px', '0px', '0px']}}
                 transition= {{repeatType: "mirror", repeat: Infinity, duration: 10}}
-                className='absolute top-[35%] left-[-90px] sm:left-[-150px] '
+                className='absolute top-[35%] left-[-60px] sm:left-[-150px] p-0'
                 
             >
-                <img src={Float1} alt="" className='scale-75'
+                <img src={Float1} alt="" className='w-[200px]'
             />
             </motion.div>
             <motion.div
                 animate={{y: ['0px', '0px', '0px', '-5px','5px','-3.5px','3.5px', '0px', '0px', '0px' ]}}
                 transition= {{repeatType: "mirror", repeat: Infinity, duration: 10}}
-                className='absolute top-[15%] right-[-75px] sm:right-[-100px]  '
+                className='absolute top-[15%] right-[-45px] sm:right-[-100px]  '
             >
-                <img src={Float2} alt="" className='scale-75'/>
+                <img src={Float2} alt="" className='w-[200px]'/>
             </motion.div>
             <motion.div 
                 animate={{y: ['0px','0px', '0px', '0px', '0px', '0px', '-5px','5px','-3.5px','3.5px', ]}}
@@ -48,9 +48,9 @@ const Header = () => {
                     repeat: Infinity,
                     duration: 10
                 }}
-                className='absolute top-[75%] right-[-65px] sm:right-[-70px]'
+                className='absolute top-[75%] right-[-40px] sm:right-[-70px]'
             >
-                <img src={Float3} alt="" className=' scale-75'/>
+                <img src={Float3} alt="" className='w-[200px]'/>
             </motion.div>
         </div>
         {/* </div> */}
