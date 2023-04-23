@@ -10,7 +10,7 @@ import {motion} from 'framer-motion'
 
 const Header = () => {
   return (
-    <div className='md:flex min-w-full justify-between items-center px-[5%]  sm:px-14 my-[100px] text-center'>
+    <div className='md:flex min-w-full justify-between items-center px-[5%]  sm:px-14 my-[100px] text-center sm:text-left'>
         <div className='md:w-[38%] '>
             <h1 className='text-[60px] leading-snug text-[#172E80]'>Pay, Invest, Save your Cash with a single bank</h1>
             <p className='text-[20px] tracking-wider font-light my-3 mb-4'>Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.</p>
