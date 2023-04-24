@@ -12,16 +12,16 @@ const Header = () => {
   return (
     <div className='md:flex min-w-full justify-between items-center px-[5%]  sm:px-14 my-[100px] text-center sm:text-left'>
         <div className='md:w-[38%] '>
-            <h1 className='text-[60px] leading-snug text-[#172E80]'>Pay, Invest, Save your Cash with a single bank</h1>
+            <h1 className='text-[40px] sm:text-[60px] leading-snug text-[#172E80]'>Pay, Invest, Save your Cash with a single bank</h1>
             <p className='text-[20px] tracking-wider font-light my-3 mb-4'>Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.</p>
             <button className='text-white text-[16px] bg-[#2E5CFF] border-solid border-[1.5px] border-[#2E5CFF] rounded-lg px-3 py-1'>Sign Up For Free</button>
-            <div className='py-6 flex gap-3'>
+            <div className='py-6 flex gap-3 justify-center sm:justify-start'>
                 <button className='flex gap-2 border-[1px] border-[#777777] rounded-lg px-3 py-[5px] text-[13px]'><img src={Play} alt="" />Get on Android</button>
                 <button className='flex gap-2 border-[1px] border-[#777777] rounded-lg px-3 py-[5px] text-[13px]'><img src={Apple} alt="" />Get on iphone</button>
             </div>
         </div>
         {/* <div className='flex justify-center items-center sm:justify-end sm:block mx-auto w-full sm:w-auto'> */}
-        <div className='relative sm:mr-[50px] sm:h-[470px] mx-[5%] sm:mx-0 left-[50%] sm:left-0 translate-x-[-50%] sm:translate-x-0  max-w-full sm:w-auto '>
+        <div className='relative sm:mr-[50px] sm:h-[470px] mx-[5%] sm:mx-0 left-[50%] sm:left-0 translate-x-[-50%] sm:translate-x-0  max-w-[85%] sm:w-auto '>
             {/* <img src={Circles} alt="" className='absolute flex justify-center max-w-full' /> */}
             <img src={Lady} alt="" className='h-full flex justify-center max-w-full' />
             <motion.div 
